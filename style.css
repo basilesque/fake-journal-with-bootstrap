@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(to left, #e78686ad, rgba(145, 152, 229, 0.756));
+}
+
+* {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+.card-text {
+    font-weight: 200;
+    color: #13376C;
+}
+
+.card-title {
+    font-weight: 800;
+    color: #13376C;
+}
+
+.navbar {
+    color: #13376C;
+}
+
+.p-5 {
+    background-color: #13376c50;
+}
+
+#mainNavbar {
+    background-color: #573c757d !important;
+}
+
+.card-body {
+    background-color: rgba(197, 207, 234, 0.5);
+}
+
+.btn-outline-success {
+    border-color: #13376C90;
+    color: #13376C90;
+}
+
+.btn-outline-success:hover {
+    background-color: #13376C75;
+    border-color: #13376C75;
+}
