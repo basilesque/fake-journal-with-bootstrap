@@ -29,8 +29,13 @@ body {
     background-color: #573c757d !important;
 }
 
+.card, .col {
+    border: none;
+    background-color: none;
+}
+
 .card-body {
-    background-color: rgba(197, 207, 234, 0.5);
+    background-color: rgba(114, 147, 237, 0.762) !important;
 }
 
 .btn-outline-success {
