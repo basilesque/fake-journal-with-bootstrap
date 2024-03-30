@@ -42,3 +42,21 @@ body {
     background-color: #13376C75;
     border-color: #13376C75;
 }
+
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 5px rgba(43, 46, 65, 0.50);
+    cursor: pointer;
+}
+
+img:active {
+    transform: scale(0.98);
+    cursor: pointer;
+}
+
+img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
