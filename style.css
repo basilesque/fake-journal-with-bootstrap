@@ -29,13 +29,14 @@ body {
     background-color: #573c757d !important;
 }
 
-.card, .col {
+.card,
+.col {
     border: none;
-    background-color: none;
+    background-color: rgba(114, 147, 237, 0) !important;
 }
 
 .card-body {
-    background-color: rgba(114, 147, 237, 0.762) !important;
+    background-color: rgba(114, 64, 148, 0.195) !important;
 }
 
 .btn-outline-success {
@@ -65,3 +66,4 @@ img {
     height: 300px;
     border-radius: 5px;
 }
+

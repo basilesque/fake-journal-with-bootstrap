@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gökyüzü Günlüğü</title>
+    <title>Sky Photos Journal</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -42,19 +42,31 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+                        <a class="nav-link active" aria-current="page" href="#">Main Page</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Hakkımda</a>
+                        <a class="nav-link" href="#">About Me</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Diğer Günlüklerim
+                            My Other Sites
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Bitki Fotoğraf Günlüğü</a></li>
-                            <li><a class="dropdown-item" href="#">Gezi Günlüğü</a></li>
+                            <li><a class="dropdown-item" href="https://basilesque.github.io/random-photos-gallery/"
+                                    target="_blank">Random Photos</a></li>
+                            <li><a class="dropdown-item" href="https://basilesque.github.io/functional-sudoku/"
+                                    target="_blank">Sudoku</a></li>
+                            <li><a class="dropdown-item" href="https://basilesque.github.io/random-background-colors/"
+                                    target="_blank">Random Background Colors</a></li>
+                            <li><a class="dropdown-item" href="https://basilesque.github.io/counter/"
+                                    target="_blank">Counter</a></li>
+                            <li><a class="dropdown-item" href="https://basilesque.github.io/calculator/"
+                                    target="_blank">Calculator</a></li>
+                            <li><a class="dropdown-item" href="https://basilesque.github.io/bootleg-cookie-clicker/"
+                                    target="_blank">Cookie Clicker Game</a></li>
+                            <li><a class="dropdown-item" href="https://basilesque.github.io/blackjack/"
+                                    target="_blank">Blackjack Game</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -66,8 +78,8 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Ara" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Ara</button>
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -75,6 +87,7 @@
 
     <div class="p-5 text-white text-center">
         <h1>Sky Photos Journal</h1>
+        <h5>Click on photos to see them on full screen.</h5>
         <p>(The descriptions of the photos are random latin words.)</p>
     </div>
 
@@ -84,7 +97,9 @@
         <div class="row row-cols-2 row-cols-md-4 g-4">
             <div class="col">
                 <div class="card">
-                    <img src="1.jpg" class="card-img-top" alt="...">
+                    <img src="1.jpg"
+                        onclick="window.open('https://basilesque.github.io/fake-journal-with-bootstrap/1.jpg', '_blank');"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">12th of September 2023</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis labore ex
@@ -94,7 +109,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="2.jpg" class="card-img-top" alt="...">
+                    <img src="2.jpg"
+                        onclick="window.open('https://basilesque.github.io/fake-journal-with-bootstrap/2.jpg', '_blank');"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">27th of October 2023</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis labore ex
@@ -104,7 +121,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="3.jpg" class="card-img-top" alt="...">
+                    <img src="3.jpg"
+                        onclick="window.open('https://basilesque.github.io/fake-journal-with-bootstrap/3.jpg', '_blank');"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">30th November 2023</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis labore ex
@@ -114,7 +133,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="4.jpg" class="card-img-top" alt="...">
+                    <img src="4.jpg"
+                        onclick="window.open('https://basilesque.github.io/fake-journal-with-bootstrap/4.jpg', '_blank');"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">29th of November 2023</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis labore ex
@@ -124,7 +145,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="5.jpg" class="card-img-top" alt="...">
+                    <img src="5.jpg"
+                        onclick="window.open('https://basilesque.github.io/fake-journal-with-bootstrap/5.jpg', '_blank');"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">10th of March 2023</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad animi sed
@@ -135,7 +158,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="6.jpg" class="card-img-top" alt="...">
+                    <img src="6.jpg"
+                        onclick="window.open('https://basilesque.github.io/fake-journal-with-bootstrap/6.jpg', '_blank');"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">23th of November 2023</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum inventore
@@ -144,9 +169,11 @@
                     </div>
                 </div>
             </div>
+
             <div class="col">
                 <div class="card">
                     <img src="7.jpg"
+                        onclick="window.open('https://basilesque.github.io/fake-journal-with-bootstrap/7.jpg', '_blank');"
                         class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">10th of March 2023</h5>
@@ -157,7 +184,9 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="8.jpg" class="card-img-top" alt="...">
+                    <img src="8.jpg"
+                        onclick="window.open('https://basilesque.github.io/fake-journal-with-bootstrap/8.jpg', '_blank');"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">2nd of December 2023</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis labore ex
